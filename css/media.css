@@ -1,0 +1,126 @@
+@media only screen and (max-width: 1024px) {
+	.header__container,
+	.footer__container {
+		justify-content: center;
+	}
+	.dir__img {
+	    margin-left: auto;
+    	margin-right: auto;
+    	max-width: 240px;
+	}
+	.dir__info-wrp {
+	    margin-left: auto;
+	    margin-right: auto;
+	    max-width: 100%;
+	    text-align: center;
+	}
+	.dir__info-wrp .section__ttl {
+		text-align: center;
+	}
+	.feed__form-top {
+		justify-content: center;
+	}
+
+}
+@media only screen and (max-width: 768px) {
+	.offer__ttl {
+		font-size: 31px;
+	}
+	.offer__subttl {
+		font-size: 23px;
+	}
+	.section__ttl {
+		font-size: 27px;
+	}
+	.adv__subttl {
+		font-size: 21px;
+	}
+	.day__item:nth-child(2):after {
+		display: none;
+	}
+	.popup {
+    	padding: 0px 45px 20px;
+	}
+	.feed__form-top {
+   		max-width: 340px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    -webkit-flex-direction: column;
+	    -moz-flex-direction: column;
+	    -ms-flex-direction: column;
+	    -o-flex-direction: column;
+	    flex-direction: column;
+	    justify-content: center;
+	}
+    
+}
+@media only screen and (max-width: 642px) {
+	.header__nav,
+	.footer__nav {
+		display: none;
+	}
+	.header__container,
+	.footer__container {
+		justify-content: space-around;
+	}
+	.rev .section__ttl {
+		text-align: center;
+	}
+	.rev__cnt {
+		padding-bottom: 50px;
+	}
+	.rev__cnt .owl-nav {
+	    bottom: -20px;
+	    position: absolute;
+	    top: auto;
+	    right: 0;
+	    left: 0;
+	    margin: 0 auto;
+	    display: block;
+	    width: 70px;
+	}
+	.rev__item {
+		max-width: 340px;
+	    padding: 15px 5px;
+	}
+	.rev__ttl {
+		font-size: 15px;
+	}
+}
+@media only screen and (max-width: 504px) {
+	.day__item:after {
+		display: none;
+	}
+	.map__cnt {
+		margin: 0 auto;
+	}
+	.adv__item {
+	    max-width: 360px;
+	    margin-left: auto;
+	    margin-right: auto;
+	}
+	.day__item {
+		padding-top: 0;
+		padding-bottom: 0;
+	}
+	.act__item-ttl,
+	.act__item-num {
+		margin-bottom: 5px;
+	}
+	.popup__ttl {
+		font-size: 19px;
+	}
+	.day__num {
+		margin-bottom: 5px;
+	}
+	.rev__item {
+	    max-width: 340px;
+	    padding: 25px 12px 30px;
+	    margin-left: auto;
+	    margin-right: auto;
+	    min-height: auto;
+	}
+	/*.map iframe {
+		opacity: 0;
+	}*/
+}
